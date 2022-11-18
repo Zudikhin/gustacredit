@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <meta name="author" content="Yuriy Zudikhin" />
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header_block">
+          <a class="header_block_logo" href="#">
+            <img src="img/logo_white.svg" alt="">
+          </a>
+          <a class="header_block_tel" href="tel:+38766116865">+387 66116865</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main_top">
+          <div class="main_top_item main_top_item_step_one">
+            <h2>Hajde da nađemo najbolji zajam!</h2>
+            <p>Da biste dobili zajam, ispunite obrazac</p>
+          </div>
+        </div>
+        <div class="main_block">
+          <div class="main_block_step main_block_step_one">
+            <div class="main_block_step_wrap">
+
+              <div class="main_block_step_one_item">
+                <p class="main_block_step_one_item_title">КМ</p>
+
+                <div class="main_block_step_one_item_wrap">
+                  <p class="main_block_step_one_item_wrap_start">50</p>
+                  <div id="rangeOne" class="main_block_step_one_item_wrap_range">
+                    <div id="rangeTextWrapOne" class="main_block_step_one_item_wrap_range_text">
+                      <span id="rangeTextOne">50</span>
+                    </div>
+                    <div id="rangePrice" class="main_block_step_one_item_wrap_range_line"></div>
+                    <div id="rangeOneText" class="main_block_step_one_item_wrap_range_dot ui-slider-handle"></div>
+                  </div>
+                  <p class="main_block_step_one_item_wrap_end">10 000</p>
+                </div>
+
+              </div>
+
+              <div class="main_block_step_one_item">
+                <p class="main_block_step_one_item_title">DANA</p>
+
+                <div class="main_block_step_one_item_wrap">
+                  <p class="main_block_step_one_item_wrap_start">5</p>
+                  <div id="rangeTwo" class="main_block_step_one_item_wrap_range">
+                    <div id="rangeTextWrapTwo" class="main_block_step_one_item_wrap_range_text">
+                      <span id="rangeTextTwo">5</span>
+                    </div>
+                    <div id="rangeDay" class="main_block_step_one_item_wrap_range_line"></div>
+                    <div id="rangeTwoText" class="main_block_step_one_item_wrap_range_dot ui-slider-handle"></div>
+                  </div>
+                  <p class="main_block_step_one_item_wrap_end">60</p>
+                </div>
+
+              </div>
+              
+              <div class="main_block_step_one_result">
+                <p class="main_block_step_one_result_text main_block_step_one_result_text_one">Iznos zajma: <span class="distance">2500 KM</span></p>
+                <button class="main_block_step_one_result_btn">
+                  <span>Poslati projavu</span>
+                </button>  
+                <p class="main_block_step_one_result_text main_block_step_one_result_text_two">Rok zajma: <span class="date">45 dana</span></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="main_block_navigation">
+            <div class="main_block_navigation_item main_block_navigation_item_one">
+              <div class="main_block_navigation_item_digital">
+                <span>1</span>
+              </div>
+              <p>Korak 1</p>
+            </div>
+            <div class="main_block_navigation_item main_block_navigation_item_two">
+              <div class="main_block_navigation_item_digital">
+                <span>2</span>
+              </div>
+              <p>Korak 2</p>
+            </div>
+            <div class="main_block_navigation_item main_block_navigation_item_three">
+              <div class="main_block_navigation_item_digital">
+                <span>3</span>
+              </div>
+              <p>Korak 3</p>
+            </div>
+          </div>
+          <div class="main_block_step_two">
+
+            <div class="main_block_step_two_inputs">
+              <input id="name" type="text" placeholder="Ime">
+              <input id="father" type="text" placeholder="Ime oca">
+              <input id="surname" type="text" placeholder="Prezime">
+              <input id="telephone" type="tel" placeholder="Telefonski broj">
+              <input id="email" type="tel" placeholder="Email">
+              <input id="birth" type="tel" placeholder="Datum rođenja">
+            </div>
+
+            <label class="main_block_step_two_politic">Dajem saglasnost za obradu ličnih podataka i za primanje reklamnih materijala, prihvatam uslove javne ponude, uslove odbijanja usluge, kao i tarife usluge. Pročitao sam opis procesa narudžbe  usluge, uvjeti, rokovi i cijene isporuke. Pročitao sam opis postupka žalbe i reklamacije, opis i garancija na usluge. Pročitao sam opis izdavanja računa kupcu nakon izvršenog plaćanja usluga. Pročitao sam email adrese i telefonski brojevi podrške za kupce. Razumijem da plaćanje usluga ne garantuje zajam.
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+
+            <div class="main_block_step_two_next">
+              <span>Dalje</span>
+            </div>
+
+          </div>
+          <div class="main_block_step_three">
+            <div class="main_block_step_three_protect">
+              <p>Vaši <a href="#">podaci su zaštićeni</a></p>
+            </div>
+            <div class="main_block_step_three_item">
+              <h5>Podaci o mjestu stanovanja</h5>
+              <p>Adresa sa CIPS prijavnice:</p>
+              <div class="main_block_step_three_item_inputs">
+                <input id="regionYur" type="text" placeholder="Navedite kanton / regiju">
+                <input id="placeYur" type="text" placeholder="Mjesto">
+                <input id="municipalityYur" type="text" placeholder="Opština">
+                <input id="zipcodeYur" type="text" placeholder="Poštanski broj">
+                <input id="addressYur" type="text" placeholder="Adresa">
+                <input id="telephoneYur" type="tel" placeholder="Telefon (kučni)">
+              </div>
+            </div>
+            <div class="main_block_step_three_item">
+              <h5>Podaci o trenutnoj adresi stanovanja:</h5>
+
+              <label class="main_block_step_three_item_checkbox">
+                Ista adresa kao u CIPS prijavnice
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+
+              <div class="main_block_step_three_item_inputs">
+                <input id="regionFact" type="text" placeholder="Navedite kanton / regiju">
+                <input id="placeFact" type="text" placeholder="Mjesto">
+                <input id="municipalityFact" type="text" placeholder="Opština">
+                <input id="zipcodeFact" type="text" placeholder="Poštanski broj">
+                <input id="addressFact" type="text" placeholder="Adresa">
+                <input id="telephoneFact" type="tel" placeholder="Telefon (kučni)">
+              </div>
+
+            </div>
+            <div class="main_block_step_three_btns">
+              <div class="main_block_step_three_btns_back">
+                <span>Nazad</span>
+              </div>
+              <div class="main_block_step_three_btns_next">
+                <span>Dalje</span>
+              </div>
+            </div>
+          </div>
+          <div class="main_block_step_four">
+
+            <div class="main_block_step_four_protect">
+              <p>Vaši <a href="#">podaci su zaštićeni</a></p>
+            </div>
+
+            <div class="main_block_step_four_item">
+              <h5>Zanimanje</h5>
+              <p class="main_block_step_four_item_alone">Radni status </p>
+              <div class="main_block_step_four_item_body who_interest">
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Zaposlen
+                  <input id="busy" class="interest" type="checkbox" checked>
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Nezaposlen
+                  <input id="unemployed" class="interest" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Student
+                  <input id="student" class="interest" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Penzioner
+                  <input id="old" class="interest" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+              </div>
+              <div class="main_block_step_four_item_inputs">
+                <input id="employment" type="text" placeholder="Radni odnos - Na neodređeno / Određeno">
+                <input id="total" type="text" placeholder="Ukupno radnog staža (u mjesecima)">
+                <input id="workingPlace" type="text" placeholder="Radno mjesto">
+                <input id="companyName" type="text" placeholder="Naziv firme">
+                <input id="companyAddress" type="text" placeholder="Adresa firme">
+                <input id="telephoneCompany" type="tel" placeholder="Telefon (kontakt osoba u firmi)">
+                <input id="salaryAmount" type="text" placeholder="Iznos plate">
+                <input id="datePayment" type="text" placeholder="Datum zadnje uplate">
+                <input id="bank" type="text" placeholder="Banka preko koje se vrši isplata">
+              </div>
+            </div>
+
+            <div class="main_block_step_four_item">
+              <p class="main_block_step_four_item_alone">Navedite svoje obrazovanje</p>
+              <div class="main_block_step_four_item_body">
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Osnovno obrazovanje
+                  <input class="education" type="checkbox" checked>
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Srednje obrazovanje
+                  <input class="education" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Visoko obrazovanje
+                  <input class="education" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Dva i više visokih obrazovanja
+                  <input class="education" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+              </div>
+            </div>
+
+            <div class="main_block_step_four_item last">
+
+              <p class="main_block_step_four_item_alone">Mogu dostaviti sljedeće dokumente:</p>
+
+              <div class="main_block_step_four_item_body">
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Lična karta / pasoš
+                  <input class="document" type="checkbox" checked>
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  CIPS
+                  <input class="document" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Tri platne liste
+                  <input class="document" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="main_block_step_four_item_body_checkbox">
+                  Izvod za tri mjeseca iz banke
+                  <input class="document" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+              </div>
+            </div>
+
+            <div class="main_block_step_four_btns">
+              <div class="main_block_step_four_btns_back">
+                <span>Nazad</span>
+              </div>
+              <div class="main_block_step_four_btns_next">
+                <span>Dalje</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_block">
+
+          <div class="footer_block_top_mob">
+            <div class="footer_block_top_mob_left">
+              <img src="img/logo_black.svg" alt="">
+              <p>© 2022, Gustacredit</p>
+            </div>
+            <div class="footer_block_top_mob_right">
+              <a href="#">Otkažite usluge</a>
+              <a href="#">Povratne informacije</a>
+            </div>
+          </div>
+
+          <div class="footer_block_bottom_mob">
+
+            <div class="footer_block_bottom_mob_left">
+              <h5>Kontakt</h5>
+              <a href="tel:+38766676281">+387 66676281</a>
+            </div>
+
+            <div class="footer_block_bottom_mob_right">
+              <a href="mailto:support@gustacredit.ba">support@gustacredit.ba</a>
+            </div>
+
+          </div>
+
+          <div class="footer_block_top_desk">
+            <div class="footer_block_top_desk_left">
+              <img src="img/logo_black.svg" alt="">
+              <p>© 2022, Gustacredit</p>
+            </div>
+            <div class="footer_block_top_desk_right">
+
+              <div class="footer_block_top_desk_right_item">
+                <h5>Kontakt</h5>
+                <ul>
+                  <li>
+                    <a href="tel:+38766676281">+387 66676281</a>
+                  </li>
+                  <li>
+                    <a href="mailto:support@gustacredit.ba">support@gustacredit.ba</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer_block_top_desk_right_item">
+                <ul>
+                  <li>
+                    <a href="#">Otkažite usluge</a>
+                  </li>
+                  <li>
+                    <a href="#">Povratne informacije</a>
+                  </li>
+                </ul>
+              </div>
+ 
+            </div>
+          </div>
+
+          <div class="footer_block_content">
+            <div class="footer_block_content_left">
+              <p>Uslugu «Jedna prijava» pruža REGULA ZAPADNI BALKAN d.o.o. koja je registrovana kao operater ličnih podataka. Izdavanje zajmova od partnera vrši se putem bankovnog računa, gotovinske isplate ili putem debitne kartice. Usluga ne pripada financijskim institucijama, nije povjerenik ili banka i naša kompanija nije odgovorna za ugovore o zajmu koje su klijenti i partneri naknadno zaključili. Dostupni iznos kredita iznosi od 50,00 KM do 10.000 KM. Rok zajma iznosi: od 6 dana uz kamatnu stopu: od 0% do 365% godišnje. Prilikom posjete našoj web stranici kao i prilikom obavljanja radnjih na istoj prihvaćate uslove korištenja, uslove o javnoj ponudi, uslove i tarife usluge, također pristajete na:</p>
+              <ul>
+                <li>
+                  obradu ličnih podataka
+                </li>
+                <li>
+                  primanje reklamnih materijala
+                </li>
+                <li>
+                  opis procesa narudžbe proizvoda
+                </li>
+                <li>
+                  uvjeti, rokovi i cijene isporuke
+                </li>
+                <li>
+                  opis postupka žalbe i reklamacije
+                </li>
+                <li>
+                  garancija na usluge
+                </li>
+                <li>
+                  opis izdavanja računa
+                </li>
+                <li>
+                  email adrese i telefonski brojevi podrške za kupce.
+                </li>
+              </ul>
+              <p>Plaćanje usluga ne garantuje zajam!</p>
+            </div>
+            <div class="footer_block_content_right">
+              <p>Za sva dodatna pitanja možete se obratiti našim stručnjacima servisa putem e-mail adrese support@svizajmovi.ba</p>
+              <p>Cijena usluge iznosi 35,14 KM.</p>
+              <p>Ukoliko usluga više nije relevantna za vas (dobili ste zajam ili vam više nisu potrebni zajmovi), možete zaustaviti obradu prijave u odjeljku <a href="#">Otkažite usluge</a></p>
+              <p>Spisak mikrokreditnih organizacija kojima se šalju zahtjevi klijenata u okviru usluge:</p>
+              <ul>
+                <li>PRVA ISLAMSKA MIKROKREDITNA FONDACIJA</li>
+                <li>MIKROKREDITNA FONDACIJA "LIDER" SARAJEVO</li>
+                <li>Mikrokreditno društvo IuteCredit BH d.o.o. Sarajevo</li>
+                <li>Mikrokreditna Fondacija "Mikra" Sarajevo</li>
+                <li>Mikrokreditno društvo EKI d.o.o. Sarajevo</li>
+                <li>Mikrokreditno društvo CREDO CENTAR d.o.o. Mostar</li>
+                <li>MIKROKREDITNA FONDACIJA "MIKRO ALDI" GORAŽDE</li>
+                <li>"PARTNER MIKROKREDITNA FONDACIJA" TUZLA</li>
+                <li>MIKROKREDITNA FONDACIJA "LOK" SARAJEVO</li>
+                <li>MKF SUNRISE</li>
+                <li>MKD ZDRAVO d.o.o. Banja Luka</li>
+                <li>Mikrokreditno društvo “CREDIS” a.d. Banja Luka</li>
+                <li>Prvo penzionersko mikrokreditno društvo a.d. Banja Luka</li>
+                <li>Mikrofin d.o.o. Banja Luka</li>
+                <li>PRODEST MIKROKREDITNA FONDACIJA Banja Luka</li>
+                <li>MKD Digital Finance International d.o.o. Banja Luka</li>
+                <li>MKD FinCredit d.o.o. Banja Luka</li>
+                <li>Brčko gas penzionersko mikrokreditno društvo d.o.o. Banja Luka</li>
+                <li>Mikrokreditna fondacija "Pro Fin" Istočno Sarajevo</li>
+                <li>Mikrokreditno društvo "Privrednik" d.o.o. Bijeljina</li>
+                <li>Mikrokreditno društvo Taurus d.o.o. Banja Luka</li>
+                <li>Mikrokreditno društvo Auris a.d. Banja Luka</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
